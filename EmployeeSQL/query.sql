@@ -1,15 +1,16 @@
 
--- List following details of each employee
-SELECT * FROM employees
+-- List following details of each employee: with salary
+
+SELECT e.Emp_ID, e.last_name, e.first_name, e.sex, s.salary
+FROM Employees e
+LEFT JOIN Salaries s
+ON e.Emp_ID = s.Emp_ID
 
 -- List first name, last name, and hire date for employees hired in 1986
 SELECT first_name, last_name, hire_date FROM employees
 WHERE hire_date > '12/31/1985'
 	and hire_date < '01/01/1987';
 
-SELECT * FROM department_managers
-
-SELECT * FROM departments
 
 --list Manager of Each Deparment with dept. number, name, employee no, name
 SELECT dm.Dept_No, d.Dept_name, dm.Emp_ID,  e.First_name, e.Last_name
@@ -37,7 +38,6 @@ WHERE
 	AND last_name LIKE 'B%';
 	
 -- List all employees in the sales department, employee number, last_name, first_name, department_name
-SELECT * from departments
 
 CREATE VIEW employee_departments AS
 SELECT e.Emp_ID, e.Last_name, e.First_name, d.Dept_name
