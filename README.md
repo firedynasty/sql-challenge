@@ -25,4 +25,4 @@ The tables returned with the corresponding information:
 
 There is a Entity Relationship Diagram of the tables ![Image of Table](/EmployeeSQL/ERD_Table.png)
 
-The data is graphed to see the average salary per department ![Image of Average_Salary](/EmployeeSQL/average_salary.png) and the most common salary by histogram ![Image of Most_Common_Salary](/EmployeeSQL/most_common_salary.png).
+The data is graphed to see the average salary per department ![Image of Average_Salary](/EmployeeSQL/Average_Salary.png) and the most common salary by histogram ![Image of Most_Common_Salary](/EmployeeSQL/most_common_salary.png).
