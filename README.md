@@ -23,4 +23,4 @@ The tables returned with the corresponding information:
 	* Details of Employees in Sales / or Development
 	* Details of Last Name based on Frequency
 
-There is a Entity Relationship Diagram of the tables [Image of Table](/EmployeeSQL/ERD_Table.png)
+There is a Entity Relationship Diagram of the tables ![Image of Table](/EmployeeSQL/ERD_Table.png)
